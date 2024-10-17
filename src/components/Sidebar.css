@@ -1,0 +1,17 @@
+#sidebar {
+    min-height: 100vh;
+    position: fixed;
+    width: 250px;
+  }
+  @media (max-width: 768px) {
+    #sidebar {
+        display: none; /* Ocultamos el sidebar en pantallas pequeñas */
+    }
+    #sidebar-toggler {
+        display: block;
+    }
+  }
+  
+  #contenidoPrinc{
+    padding-left: 270px;
+  }
