@@ -5,13 +5,6 @@
   }
   @media (max-width: 768px) {
     #sidebar {
-        display: none; /* Ocultamos el sidebar en pantallas pequeñas */
+        display: none;
     }
-    #sidebar-toggler {
-        display: block;
-    }
-  }
-  
-  #contenidoPrinc{
-    padding-left: 270px;
   }

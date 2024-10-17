@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Sidebar.css';
 
 const Sidebar = () => {
@@ -19,31 +20,22 @@ const Sidebar = () => {
         </button>
 
         <nav id="sidebar" className={`bg-light border-right p-3 ${isSidebarVisible ? 'd-block' : 'd-none d-md-block'}`}>
-            <h4>Mi Sidebar</h4>
+            <h4>UI Elements</h4>
             <ul className="nav flex-column">
                 <li className="nav-item">
-                    <a className="nav-link active" href="#">Inicio</a>
+                    <Link to="/" className="nav-link">Inicio</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Componentes</a>
+                    <Link to="/elementos" className="nav-link">Elementos</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Recursos</a>
+                    <Link to="/recursos" className="nav-link">Recursos</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Ayuda</a>
+                    <Link to="/ayuda" className="nav-link">Ayuda</Link>
                 </li>
             </ul>
         </nav>
-
-        <div id="contenidoPrinc" className="container-fluid">
-            <div className="row">
-                <div className="col-12">
-                    <h1>Contenido Principal</h1>
-                    <p>Este es el contenido principal de la página...</p>
-                </div>
-            </div>
-        </div>
     </div>
   )
 }
