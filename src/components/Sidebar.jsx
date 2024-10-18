@@ -20,19 +20,19 @@ const Sidebar = () => {
         </button>
 
         <nav id="sidebar" className={`bg-light border-right p-3 ${isSidebarVisible ? 'd-block' : 'd-none d-md-block'}`}>
-            <h4>UI Elements</h4>
+            <h4 className="outfit fw-500">UI Elements</h4>
             <ul className="nav flex-column">
-                <li className="nav-item">
-                    <Link to="/" className="nav-link">Inicio</Link>
+                <li className="nav-item mt-4">
+                    <Link to="/" className="outfit fw-400 without-deco">Inicio</Link>
                 </li>
-                <li className="nav-item">
-                    <Link to="/elementos" className="nav-link">Elementos</Link>
+                <li className="nav-item mt-2">
+                    <Link to="/elementos" className="outfit fw-400 without-deco">Elementos</Link>
                 </li>
-                <li className="nav-item">
-                    <Link to="/recursos" className="nav-link">Recursos</Link>
+                <li className="nav-item mt-2">
+                    <Link to="/recursos" className="outfit fw-400 without-deco">Recursos</Link>
                 </li>
-                <li className="nav-item">
-                    <Link to="/ayuda" className="nav-link">Ayuda</Link>
+                <li className="nav-item mt-2">
+                    <Link to="/ayuda" className="outfit fw-400 without-deco">Ayuda</Link>
                 </li>
             </ul>
         </nav>

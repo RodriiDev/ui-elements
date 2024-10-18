@@ -15,8 +15,8 @@ function App() {
         <div id="main-content" className="container-fluid">
               <div className="row">
                   <div className="col-12">
-                      <h1>Bienvenido</h1>
-                      <p>UI Elements con CSS, Bootstrap y Tailwind</p>
+                      <h1 className="outfit fw-500">Bienvenido</h1>
+                      <p className="outfit fw-400">UI Elements con CSS, Bootstrap y Tailwind</p>
                   </div>
               </div>
               <div className="row">

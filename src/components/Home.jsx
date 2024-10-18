@@ -3,7 +3,7 @@ import React from 'react'
 const Home = () => {
   return (
     <div>
-        Este es el Home
+        <label className="outfit fw-300">Este es el Home</label>
     </div>
   )
 }
