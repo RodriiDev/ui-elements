@@ -13,10 +13,10 @@ function App() {
         <Sidebar />
 
         <div id="main-content" className="container-fluid">
-              <div className="row">
+              <div className="row text-center">
                   <div className="col-12">
-                      <h1 className="outfit fw-500">Bienvenido</h1>
-                      <p className="outfit fw-400">UI Elements con CSS, Bootstrap y Tailwind</p>
+                      <h2 className="outfit fw-500 mt-3">Librería de elementos UI y recursos para tu web</h2>
+                      <h4 className="outfit fw-300 mt-1">Hechos con CSS, Bootstrap y Tailwind</h4>
                   </div>
               </div>
               <div className="row">
@@ -28,10 +28,10 @@ function App() {
                                 <Route path="/help" />
                             </Routes>
                         </div>
-                    </div>
-          </div>
+              </div>
+        </div>
 
-          </div>
+      </div>
     </Router>
   )
 }

@@ -2,9 +2,13 @@
     min-height: 100vh;
     position: fixed;
     width: 250px;
-  }
-  @media (max-width: 768px) {
+}
+@media (max-width: 768px) {
     #sidebar {
         display: none;
     }
-  }
+}
+.lbl-menu{
+    cursor: pointer;
+    font-size: 20px;
+}
