@@ -10,8 +10,11 @@ function App() {
   return (
     <Router>
       <div className="App">
+
+        {/* Menú lateral */}
         <Sidebar />
 
+        {/* Contenido principal */}
         <div id="main-content" className="container-fluid">
               <div className="row text-center">
                   <div className="col-12">
