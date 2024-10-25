@@ -49,6 +49,25 @@ const Home = () => {
                     </div>
                 </div>
 
+                <div className="card cardStyle me-3 mb-3">
+                    <div className="card-title">
+                        <label className="outfit fw-400 d-block text-end me-5">Bootstrap</label>
+                    </div>
+                    <div className="card-body text-center">
+                        <div className="dropdown">
+                            <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown button
+                            </button>
+                            <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a className="dropdown-item" href="#">Action</a>
+                                <a className="dropdown-item" href="#">Another action</a>
+                                <a className="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </div>
+                        <label className="outfit fw-400 d-block mt-2">Dropdown</label>
+                    </div>
+                </div>
+
             </div>
         </div>
 
