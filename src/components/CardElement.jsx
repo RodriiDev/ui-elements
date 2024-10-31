@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CardHome = ({tipo,elemento}) => {
+const CardElement = ({tipo,elemento}) => {
   return (
     
     <div className="card cardStyle me-3 mb-3">
@@ -15,4 +15,4 @@ const CardHome = ({tipo,elemento}) => {
   )
 }
 
-export default CardHome
+export default CardElement

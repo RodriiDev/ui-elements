@@ -1,6 +1,6 @@
 import React from 'react'
 import './Elementos.css'
-import CardHome from './CardHome.jsx';
+import CardElement from './CardElement.jsx';
 
 const Home = () => {
 
@@ -22,6 +22,7 @@ const Home = () => {
                         </div>
                         <label className="outfit fw-400 d-block mt-2">Dropdown</label>
                     </div>;
+const elemento6 = <div><label className="switch"><input type="checkbox" /><span className="slider"></span></label><label className="outfit fw-400 d-block mt-2">Toogle</label></div>;
 
   return (
     <div className="container">
@@ -30,11 +31,12 @@ const Home = () => {
                 <label className="outfit fw-400">Últimos elementos agregados</label>
             </div>
             <div className="card-body">
-                <CardHome tipo={tipo1} elemento={elemento1}/>
-                <CardHome tipo={tipo1} elemento={elemento2}/>
-                <CardHome tipo={tipo2} elemento={elemento3}/>
-                <CardHome tipo={tipo2} elemento={elemento4}/>
-                <CardHome tipo={tipo2} elemento={elemento5}/>
+                <CardElement tipo={tipo1} elemento={elemento1}/>
+                <CardElement tipo={tipo1} elemento={elemento2}/>
+                <CardElement tipo={tipo2} elemento={elemento3}/>
+                <CardElement tipo={tipo2} elemento={elemento4}/>
+                <CardElement tipo={tipo2} elemento={elemento5}/>
+                <CardElement tipo={tipo1} elemento={elemento6}/>
             </div>
         </div>
 
