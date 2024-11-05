@@ -5,7 +5,7 @@ const CardElement = ({tipo,elemento}) => {
     
     <div className="card cardStyle me-3 mb-3">
         <div className="card-title">
-            <label className="outfit fw-400 d-block text-end me-5">{tipo}</label>
+            <label className={ `outfit fw-400 d-block text-end me-5 ${tipo=='CSS' ? 'text-success' : 'text-primary'}` }>{tipo}</label>
         </div>
         <div className="card-body text-center">
             {elemento}
