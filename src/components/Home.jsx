@@ -1,4 +1,3 @@
-import React from 'react'
 import './Elementos.css'
 import CardElement from './CardElement.jsx';
 
@@ -23,6 +22,9 @@ const Home = () => {
                         <label className="outfit fw-400 d-block mt-2">Dropdown</label>
                     </div>;
 const elemento6 = <div><label className="switch"><input type="checkbox" /><span className="slider"></span></label><label className="outfit fw-400 d-block mt-2">Toogle</label></div>;
+const recurso1 =  <div><input type="color" className="form-control form-control-color d-inline" id="myColor" value="#CCCCCC" title="Choose a color"></input>
+                        <label className="outfit fw-400 d-block mt-2">Color picker</label>
+                        </div>;
 
   return (
     <div className="container">
@@ -45,7 +47,7 @@ const elemento6 = <div><label className="switch"><input type="checkbox" /><span 
                 <label className="outfit fw-400">Últimos recursos agregados</label>
             </div>
             <div className="card-body">
-                <label>Aqui van los recursos</label>
+                <CardElement tipo={tipo2} elemento={recurso1}/>
             </div>
         </div>
 
