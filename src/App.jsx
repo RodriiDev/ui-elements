@@ -4,6 +4,7 @@ import './App.css'
 import Sidebar from './components/Sidebar.jsx';
 import Home from './components/Home.jsx';
 import Elementos from './components/Elementos.jsx';
+import Recursos from './components/Recursos.jsx';
 
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
                             <Routes>
                                 <Route path="/" element={ <Home /> } />
                                 <Route path="/elementos"  element={ <Elementos /> }/>
-                                <Route path="/settings"  />
+                                <Route path="/recursos" element={ <Recursos /> } />
                                 <Route path="/help" />
                             </Routes>
                         </div>
